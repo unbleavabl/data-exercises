@@ -1,3 +1,8 @@
 export const tupleToDictionary = (tuples: Array<[string, string]>) => {
-  throw new Error('Not implemented');
+  return tuples.reduce((acc, [propKey, propValue]) => {
+    return {
+      ...acc,
+      [propKey]: propValue,
+    }
+  }, {});
 };

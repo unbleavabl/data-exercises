@@ -18,6 +18,6 @@ describe("exercise-1", () => {
 
     const result = tupleToDictionary(input);
 
-    expect(result).toBe(expectedOutput);
+    expect(result).toEqual(expectedOutput);
   });
 });
