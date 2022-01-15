@@ -1,3 +1,3 @@
-export const testFunc = () => {
-  return 0;
-}
+export const tupleToDictionary = (tuples: Array<[string, string]>) => {
+  throw new Error('Not implemented');
+};
